@@ -14,12 +14,14 @@ export default function App() {
 			<Works />
 			<Certificates />
 			<Contact />
-			<a
-				href='http://localhost/testsite/'
-				target='_blank'
-				rel='noopener noreferrer'>
-				Go to WP-React Landing Page
-			</a>
+			<div className='link-bottom'>
+				<a
+					href='http://localhost/testsite/'
+					target='_blank'
+					rel='noopener noreferrer'>
+					Go to WP-React Landing Page
+				</a>
+			</div>
 		</div>
 	);
 }
