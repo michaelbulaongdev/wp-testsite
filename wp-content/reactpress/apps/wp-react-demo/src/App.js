@@ -14,6 +14,13 @@ function App() {
 					rel='noopener noreferrer'>
 					Go to WP Dashboard
 				</a>
+				<a
+					className='App-link'
+					href='http://localhost/testsite/my-portfolio/'
+					target='_blank'
+					rel='noopener noreferrer'>
+					Go to My Portfolio
+				</a>
 			</header>
 		</div>
 	);
